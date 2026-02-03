@@ -12,7 +12,7 @@ const Footer = () => {
               href="https://themeforest.net/user/themes_mountain"
               target="_blank"
             >
-              Pertest{" "}
+              Kingsley{" "}
             </a>
             - All rights reserved.
           </p>

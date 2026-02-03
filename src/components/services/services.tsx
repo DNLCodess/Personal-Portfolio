@@ -1,48 +1,46 @@
- "use client";
-import { servicesData } from "@/lib/mockData/servicesData";
-import Link from "next/link";
+// components/Experience/Experience.tsx
+"use client";
+import { experienceData } from "@/lib/mockData/experiencesData";
 import { useState } from "react";
-import ServiceCard from "./serviceCard";
+import ExperienceCard from "./serviceCard";
 
-const Services = () => {
-  const [activeId, setActiveId] = useState<number | null>(1);
+const Experience = () => {
+  const [activeId, setActiveId] = useState<number | null>(null);
 
   const toggleItem = (id: number) => {
     setActiveId((prev) => (prev === id ? null : id));
   };
+
   return (
-    <section id="services" className="services section-pt">
+    <section id="experience" className="experience section-pt">
       <div className="container">
         <div className="section-title wow fadeInUp" data-wow-delay=".3s">
-          <h3>Latest Services</h3>
+          <h3>Work Experience</h3>
           <span />
         </div>
-        <div className="service-item-wrapper">
-          {servicesData.map((service, index) => {
-            return (
-              <ServiceCard
-                key={service.id}
-                index={index}
-                service={service}
-                activeId={activeId}
-                toggleItem={toggleItem}
-              />
-            );
-          })}
+
+        <div className="experience-intro wow fadeInUp" data-wow-delay=".4s">
+          <p>
+            Growth-focused digital strategies covering SEO, paid advertising,
+            content, analytics, and conversion optimization across diverse
+            industries.
+          </p>
         </div>
-        <div
-          className="view-all-btn-wrapper wow fadeInUp"
-          data-wow-delay="1.3s"
-        >
-          <Link href="#" className="bttn-round">
-            <span className="btn-txt">
-              View All <i className="bi bi-arrow-up-right" />
-            </span>
-          </Link>
+
+        <div className="experience-timeline">
+          {experienceData.map((experience, index) => (
+            <ExperienceCard
+              key={experience.id}
+              index={index}
+              experience={experience}
+              activeId={activeId}
+              toggleItem={toggleItem}
+            />
+          ))}
         </div>
       </div>
     </section>
   );
 };
 
-export default Services;
+export default Experience;

@@ -1,9 +1,9 @@
 import { menuList } from "@/lib/mockData/menuList";
 import Link from "next/link";
 const contacts = [
-  { email: "Pertest@gmail.com", phone: "(704) 555-0127" },
-  { email: "Pertest@gmail.com", phone: "(704) 555-0127" },
-  { email: "Pertest@gmail.com", phone: "(704) 555-0127" },
+  { email: "Kingsley@gmail.com", phone: "(704) 555-0127" },
+  { email: "Kingsley@gmail.com", phone: "(704) 555-0127" },
+  { email: "Kingsley@gmail.com", phone: "(704) 555-0127" },
 ];
 const Contact = () => {
   return (

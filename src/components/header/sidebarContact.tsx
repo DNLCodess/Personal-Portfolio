@@ -46,7 +46,7 @@ const SidebarContact = ({
               <div className="address-widget">
                 <span className="address d-block">email</span>
                 <Link href="#" className="textp">
-                  pertest@email.com
+                  Kingsley@email.com
                 </Link>
               </div>
             </div>

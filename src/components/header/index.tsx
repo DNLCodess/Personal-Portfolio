@@ -42,7 +42,7 @@ const Header = () => {
             <div className="main-logo">
               <Link href="/" className="logo">
                 <h4>
-                  P<span className="txt-orange">e</span>rtest
+                  K<span className="txt-orange">ing</span>sley
                 </h4>
               </Link>
             </div>

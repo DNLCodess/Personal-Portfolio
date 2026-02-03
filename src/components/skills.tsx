@@ -1,55 +1,61 @@
+// components/Skills/Skills.tsx (Updated - Text-based skills)
 "use client";
-
-import { skills } from "@/lib/mockData/skillsData";
-import Image from "next/image";
-import "swiper/css";
-import { Autoplay } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { skillsData } from "@/lib/mockData/skillsData";
+import { useState } from "react";
 
 const Skills = () => {
+  const [activeCategory, setActiveCategory] =
+    useState<string>("digital-marketing");
+
+  const currentCategory = skillsData.find((cat) => cat.id === activeCategory);
+
   return (
-    <section className="skills section-pt z-3">
-      <Swiper
-        loop
-        speed={2000}
-        autoplay={{
-          delay: 2000,
-        }}
-        breakpoints={{
-          0: { slidesPerView: 1 },
-          438: { slidesPerView: 2 },
-          650: { slidesPerView: 3 },
-          768: { slidesPerView: 3 },
-          850: { slidesPerView: 4 },
-          1050: { slidesPerView: 5 },
-          1270: { slidesPerView: 6 },
-          1470: { slidesPerView: 7 },
-          1700: { slidesPerView: 8 },
-        }}
-        modules={[Autoplay]}
-        className="skills-slider container-md wow fadeInUp"
-        data-wow-delay=".3s"
-      >
-        {skills.map((skill, index) => (
-          <SwiperSlide key={index}>
-            <div className="skill-item">
-              <figure>
-                <Image
-                  width={73}
-                  height={73}
-                  sizes="100vw"
-                  src={skill.img}
-                  alt={skill.name}
-                />
-              </figure>
-              <div className="skill-txt">
-                <h4>{skill.percent}</h4>
-                <span>{skill.name}</span>
-              </div>
+    <section id="skills" className="skills-section section-pt">
+      <div className="container">
+        <div className="section-title wow fadeInUp" data-wow-delay=".3s">
+          <h3>Skills & Expertise</h3>
+          <span />
+        </div>
+
+        {/* Category Tabs */}
+        <div className="skills-tabs wow fadeInUp" data-wow-delay=".4s">
+          {skillsData.map((category) => (
+            <button
+              key={category.id}
+              className={`tab-btn ${activeCategory === category.id ? "active" : ""}`}
+              onClick={() => setActiveCategory(category.id)}
+            >
+              {category.title}
+            </button>
+          ))}
+        </div>
+
+        {/* Skills Display */}
+        {currentCategory && (
+          <div className="skills-content wow fadeInUp" data-wow-delay=".5s">
+            <div className="skills-grid">
+              {currentCategory.skills.map((skill, index) => (
+                <div
+                  key={index}
+                  className="skill-item wow fadeInUp"
+                  data-wow-delay={`${0.5 + index * 0.05}s`}
+                >
+                  <div className="skill-info">
+                    <span className="skill-name">{skill.name}</span>
+                    <span className="skill-percent">{skill.proficiency}%</span>
+                  </div>
+                  <div className="skill-bar">
+                    <div
+                      className="skill-progress"
+                      style={{ width: `${skill.proficiency}%` }}
+                    />
+                  </div>
+                </div>
+              ))}
             </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+          </div>
+        )}
+      </div>
     </section>
   );
 };

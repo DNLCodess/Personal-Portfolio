@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------
-  Template Name: Pertest - Personal Portfolio Next.js Template
+  Template Name: Kingsley - Personal Portfolio Next.js Template
   Author: themes_mountain
   Author URL: https://themeforest.net/user/themes_mountain
 
@@ -9,7 +9,6 @@
 
 /* Xtra Xtra Large Devices */
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
-
   /*--------------- Hero Section ---------------*/
   .hero .contact-rotate-wrapper {
     position: absolute;
@@ -50,7 +49,6 @@
 
 /* Xtra Large Devices */
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-
   /* .section-p {
     padding-top: 100px;
   }
@@ -781,11 +779,11 @@
     text-align: center;
   }
 
-  .project-popup .other-project-img>div {
+  .project-popup .other-project-img > div {
     padding: 0;
   }
 
-  .project-popup .other-project-img>div:first-child {
+  .project-popup .other-project-img > div:first-child {
     margin-bottom: 30px;
   }
 
@@ -859,7 +857,11 @@
     display: inherit;
   }
 
-  .blog-author-section .content-auth .auth-header .a-social-icon span:first-child {
+  .blog-author-section
+    .content-auth
+    .auth-header
+    .a-social-icon
+    span:first-child {
     margin-left: 0px;
   }
 

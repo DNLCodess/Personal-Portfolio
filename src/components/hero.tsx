@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -59,7 +58,7 @@ const Hero = () => {
             <h6>&nbsp;I'm</h6>
           </div>
           <h1 className="wow fadeInUp" data-wow-delay=".6s">
-            Cameron Williamson
+            Kingsley Okechukwu
           </h1>
           <div className="row">
             <div className="col-xl-4 col-lg-4" />
@@ -68,9 +67,10 @@ const Hero = () => {
                 className="intro-info d-none d-md-block wow fadeInUp"
                 data-wow-delay=".9s"
               >
-                I believe that collaboration and creativity are the essence of
-                progress. And i am dedicated to bringing a fresh perspe to every
-                project undertake.
+                Creative Technologist, Digital Strategist, and Brand Builder
+                working at the intersection of technology, education, and
+                design. I help brands, startups, and institutions build digital
+                products, grow audiences, and create impact at scale.
               </h6>
             </div>
             <div className="col-xl-2" />
@@ -85,10 +85,10 @@ const Hero = () => {
                     data-wow-delay="1.2s"
                   >
                     <button type="button" className="bttn bttn-primary">
-                      Let’s Talk <i className="bi bi-arrow-up-right" />
+                      View Portfolio <i className="bi bi-arrow-up-right" />
                     </button>
                     <button type="button" className="bttn bttn-secondary">
-                      Download CV <i className="bi bi-arrow-up-right" />
+                      Work with Me <i className="bi bi-arrow-up-right" />
                     </button>
                   </div>
                   <Image
@@ -129,19 +129,20 @@ const Hero = () => {
             </div>
           </div>
           <span className="profession wow fadeInUp" data-wow-delay="1.0s">
-            UI UX DESIGNER
+            CREATIVE TECHNOLOGIST
           </span>
           <div className="m-content d-flex flex-wrap d-block d-md-none">
             <h6 className="intro-info wow fadeInUp" data-wow-delay="1.2s">
-              I believe that collaboration and creativity are the essence of
-              progress. And i am dedicated to bringing a fresh perspe to every
-              project undertake.
+              Creative Technologist, Digital Strategist, and Brand Builder
+              working at the intersection of technology, education, and design.
+              I help brands, startups, and institutions build digital products,
+              grow audiences, and create impact at scale.
             </h6>
             <button type="button" className="bttn bttn-primary">
-              Let’s Talk <i className="bi bi-arrow-up-right" />
+              View Portfolio <i className="bi bi-arrow-up-right" />
             </button>
             <button type="button" className="bttn bttn-secondary">
-              Download CV <i className="bi bi-arrow-up-right" />
+              Work With Me <i className="bi bi-arrow-up-right" />
             </button>
           </div>
         </div>

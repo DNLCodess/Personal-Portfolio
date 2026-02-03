@@ -1,27 +1,32 @@
+// lib/mockData/testimonialsData.ts (updated without img property)
 export type Testimonial = {
-    id: number;
-    img: string;
-    text: string;
-    wowDelay?: string;
-    contentDelay?: string;
+  id: number;
+  text: string;
+  author: string;
+  role: string;
+  company?: string;
 };
 
 export const testimonialsData: Testimonial[] = [
-    {
-        id: 1,
-        img: "images/testimonial/image3.png",
-        text: "Working with Cameron Williamson has been a game. Their ability to understand our vision and translate it into was impressive. The design solutions provided by Came improved our user engagement.",
-        wowDelay: "1.2s",
-        contentDelay: ".9s",
-    },
-    {
-        id: 2,
-        img: "images/testimonial/image2.png",
-        text: "Working with Cameron Williamson has been a game. Their ability to understand our vision and translate it into was impressive. The design solutions provided by Came improved our user engagement.",
-    },
-    {
-        id: 3,
-        img: "images/testimonial/image1.png",
-        text: "Working with Cameron Williamson has been a game. Their ability to understand our vision and translate it into was impressive. The design solutions provided by Came improved our user engagement.",
-    },
+  {
+    id: 1,
+    text: "Kingsley brings a rare mix of creativity, technical skill, and strategic thinking. He consistently delivers results and elevates every project he touches.",
+    author: "Sarah Mitchell",
+    role: "CEO",
+    company: "TechVision Global",
+  },
+  {
+    id: 2,
+    text: "Working with Kingsley was seamless. From concept to execution, the quality and professionalism were outstanding.",
+    author: "David Chen",
+    role: "Marketing Director",
+    company: "Innovate Digital",
+  },
+  {
+    id: 3,
+    text: "His ability to blend strategic marketing with technical execution is exceptional. Kingsley transformed our digital presence completely.",
+    author: "Amara Johnson",
+    role: "Founder",
+    company: "Creative Ventures",
+  },
 ];

@@ -1,5 +1,5 @@
 /*----------------------------------------------------------------------
-  Template Name: Pertest - Personal Portfolio Next.js Template
+  Template Name: Kingsley - Personal Portfolio Next.js Template
   Author: themes_mountain
   Author URL: https://themeforest.net/user/themes_mountain
 
@@ -137,15 +137,19 @@ body.dark {
 
 .dark .hero .profession {
   color: var(--clr-black);
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2),
-    -1px 1px 1px rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(255, 255, 255, 0.2),
+  text-shadow:
+    1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px -1px 0 rgba(255, 255, 255, 0.2),
     1px -1px 0 rgba(255, 255, 255, 0.2);
 }
 
 .dark .hero .profession::after {
-  background-image: linear-gradient(to bottom,
-      rgba(15, 14, 14, 0.5) 0%,
-      rgba(15, 14, 14, 1) 100%);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(15, 14, 14, 0.5) 0%,
+    rgba(15, 14, 14, 1) 100%
+  );
 }
 
 /*
@@ -215,16 +219,20 @@ body.dark {
 */
 .dark .testimonial .title {
   color: var(--clr-black);
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2),
-    -1px 1px 1px rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(255, 255, 255, 0.2),
+  text-shadow:
+    1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px -1px 0 rgba(255, 255, 255, 0.2),
     1px -1px 0 rgba(255, 255, 255, 0.2);
   position: relative;
 }
 
 .dark .testimonial .title::after {
-  background: linear-gradient(90deg,
-      rgba(243, 243, 243, 0) 0%,
-      rgba(255, 255, 255, 0.04) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 243, 243, 0) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
 }
 
 .dark .buttons span {
@@ -245,8 +253,10 @@ body.dark {
 */
 .dark .text-stroke-black {
   color: var(--clr-black);
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2),
-    -1px 1px 1px rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(255, 255, 255, 0.2),
+  text-shadow:
+    1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px -1px 0 rgba(255, 255, 255, 0.2),
     1px -1px 0 rgba(255, 255, 255, 0.2);
 }
 
@@ -335,8 +345,10 @@ body.dark {
 
 .dark .text-stroke-white {
   color: #1d1c1c;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2),
-    -1px 1px 1px rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(255, 255, 255, 0.2),
+  text-shadow:
+    1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px 1px 1px rgba(255, 255, 255, 0.2),
+    -1px -1px 0 rgba(255, 255, 255, 0.2),
     1px -1px 0 rgba(255, 255, 255, 0.2);
 }
 
@@ -372,9 +384,11 @@ body.dark {
 }
 
 .dark .popup_content_area .mfp-close {
-  background: linear-gradient(135deg,
-      var(--clr-gray) 16.35%,
-      var(--clr-black) 91.35%);
+  background: linear-gradient(
+    135deg,
+    var(--clr-gray) 16.35%,
+    var(--clr-black) 91.35%
+  );
 }
 
 .dark .popup_modal_content p {
