@@ -4,12 +4,12 @@ import Link from "next/link";
 const About = () => {
   return (
     <section id="about" className="about section-pt">
-      <div className="container wow fadeInUp" data-wow-delay=".3s">
+      <div className="container wow fadeInUp" data-wow-delay=".1s">
         <div className="section-title">
           <h3>About Me</h3>
           <span />
         </div>
-        <h3 className="about-info wow fadeInUp" data-wow-delay=".4s">
+        <h3 className="about-info wow fadeInUp" data-wow-delay=".2s">
           I am a Creative Technologist and Co-Founder of{" "}
           <span className="txt-orange">Blue Sands STEM Labs</span>, bringing
           over 6 years of experience across digital marketing, web development,

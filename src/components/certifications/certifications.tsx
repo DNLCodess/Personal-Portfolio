@@ -44,13 +44,13 @@ const Certifications = () => {
   return (
     <section id="certifications" className="certifications section-pt">
       <div className="container">
-        <div className="section-title wow fadeInUp" data-wow-delay=".3s">
+        <div className="section-title wow fadeInUp" data-wow-delay=".1s">
           <h3>Certifications & Education</h3>
           <span />
         </div>
 
         {/* Education Section */}
-        <div className="education-section wow fadeInUp" data-wow-delay=".4s">
+        <div className="education-section wow fadeInUp" data-wow-delay=".2s">
           <h4 className="subsection-title">Academic Background</h4>
           <div className="education-grid">
             {educationData.map((edu, index) => (

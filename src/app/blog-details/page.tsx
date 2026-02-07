@@ -17,7 +17,7 @@ const BlogDetails = () => {
             <div className="col-lg-8 mb-30">
               <div className="blog-details-full">
                 {/* Thumbnail */}
-                <div className="thumbnail wow fadeInUp" data-wow-delay=".3s">
+                <div className="thumbnail wow fadeInUp" data-wow-delay=".1s">
                   <Image
                     width={856}
                     height={575}
@@ -59,7 +59,7 @@ const BlogDetails = () => {
                     <div className="col-md-6 align-self-center text-md-end">
                       <div
                         className="blog-share mb-3 mb-md-0 wow fadeInUp"
-                        data-wow-delay=".4s"
+                        data-wow-delay=".2s"
                       >
                         <span>
                           <Link href="#">
@@ -158,7 +158,7 @@ const BlogDetails = () => {
                       <Link
                         href="#"
                         className="wow fadeInUp"
-                        data-wow-delay=".4s"
+                        data-wow-delay=".2s"
                       >
                         <div className="singlepage-navi-icon">
                           <i className="fa-solid fa-arrow-left-long" />

@@ -26,7 +26,7 @@ const Testimonial = () => {
       className="testimonial position-relative section-pt"
     >
       <div className="container">
-        <div className="section-title wow fadeInUp" data-wow-delay=".3s">
+        <div className="section-title wow fadeInUp" data-wow-delay=".1s">
           <h3>What Clients Say</h3>
           <span />
         </div>

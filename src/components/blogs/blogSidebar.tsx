@@ -15,10 +15,10 @@ const BlogSidebar = () => {
     <div className="sidebar-widgets">
       {/* Sidebar Singe Widget */}
       <div className="sidebar-single-widget mb-30">
-        <h5 className="pb-20 wow fadeInUp" data-wow-delay=".3s">
+        <h5 className="pb-20 wow fadeInUp" data-wow-delay=".1s">
           Search Here
         </h5>
-        <div className="widget-search wow fadeInUp" data-wow-delay=".4s">
+        <div className="widget-search wow fadeInUp" data-wow-delay=".2s">
           <input type="text" name="search" placeholder="Enter Your Keyword" />
           <button>
             <i className="fa-solid fa-magnifying-glass" />
@@ -27,10 +27,10 @@ const BlogSidebar = () => {
       </div>
       {/* Sidebar Singe Widget */}
       <div className="sidebar-single-widget category-widget mb-30">
-        <h5 className="pb-10 wow fadeInUp" data-wow-delay=".3s">
+        <h5 className="pb-10 wow fadeInUp" data-wow-delay=".1s">
           Service List
         </h5>
-        <ul className="wow fadeInUp" data-wow-delay=".4s">
+        <ul className="wow fadeInUp" data-wow-delay=".2s">
           {services.map((item, index) => (
             <li key={index}>
               <Link href="#">
@@ -42,12 +42,12 @@ const BlogSidebar = () => {
       </div>
       {/* Sidebar Singe Widget */}
       <div className="sidebar-single-widget socialicon-widget mb-30">
-        <h5 className="pb-20 wow fadeInUp" data-wow-delay=".3s">
+        <h5 className="pb-20 wow fadeInUp" data-wow-delay=".1s">
           Social Icons
         </h5>
         <ul
           className="d-lg-flex d-xxl-block flex-lg-wrap gap-lg-3 wow fadeInUp"
-          data-wow-delay=".4s"
+          data-wow-delay=".2s"
         >
           <li>
             <Link href="#">
@@ -73,7 +73,7 @@ const BlogSidebar = () => {
       </div>
       {/* Sidebar Singe Widget */}
       <div className="sidebar-single-widget socialicon-widget">
-        <h5 className="pb-20 wow fadeInUp" data-wow-delay=".3s">
+        <h5 className="pb-20 wow fadeInUp" data-wow-delay=".1s">
           Newest Posts
         </h5>
         <div className="sidebar-blog-widgets">
@@ -85,7 +85,13 @@ const BlogSidebar = () => {
             >
               <div className="thumb">
                 <Link href={"/blog-details"}>
-                  <Image width={70} height={70} sizes="100vw" src={blog.img} alt="blog" />
+                  <Image
+                    width={70}
+                    height={70}
+                    sizes="100vw"
+                    src={blog.img}
+                    alt="blog"
+                  />
                 </Link>
               </div>
               <div className="content">

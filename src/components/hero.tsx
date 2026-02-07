@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
           <div
             className="d-flex align-items-center wow fadeInUp"
-            data-wow-delay=".3s"
+            data-wow-delay=".1s"
           >
             <h6>Hi there!&nbsp;</h6>
             <Image
@@ -84,12 +84,16 @@ const Hero = () => {
                     className="btn-wrapper d-flex align-items-center wow fadeInUp"
                     data-wow-delay="1.2s"
                   >
-                    <button type="button" className="bttn bttn-primary">
-                      View Portfolio <i className="bi bi-arrow-up-right" />
-                    </button>
-                    <button type="button" className="bttn bttn-secondary">
-                      Work with Me <i className="bi bi-arrow-up-right" />
-                    </button>
+                    <Link href="#services">
+                      <button type="button" className="bttn bttn-primary">
+                        View Portfolio <i className="bi bi-arrow-up-right" />
+                      </button>
+                    </Link>
+                    <Link href="#contact">
+                      <button type="button" className="bttn bttn-secondary">
+                        Work with Me <i className="bi bi-arrow-up-right" />
+                      </button>
+                    </Link>
                   </div>
                   <Image
                     width={133}

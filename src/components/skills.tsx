@@ -12,13 +12,13 @@ const Skills = () => {
   return (
     <section id="skills" className="skills-section section-pt">
       <div className="container">
-        <div className="section-title wow fadeInUp" data-wow-delay=".3s">
+        <div className="section-title wow fadeInUp" data-wow-delay=".1s">
           <h3>Skills & Expertise</h3>
           <span />
         </div>
 
         {/* Category Tabs */}
-        <div className="skills-tabs wow fadeInUp" data-wow-delay=".4s">
+        <div className="skills-tabs wow fadeInUp" data-wow-delay=".2s">
           {skillsData.map((category) => (
             <button
               key={category.id}

@@ -27,13 +27,14 @@ const SidebarContact = ({
           </a> */}
           <Link href="/" className="logo">
             <h4>
-              P<span className="txt-orange">e</span>rtest
+              Ki<span className="txt-blue">ngs</span>ley
             </h4>
           </Link>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-            aliquid dolorum optio repellat rerum commodi accusantium rem
-            praesentium possimus dignissimos.
+            Creative Technologist, Digital Strategist, and Brand Builder working
+            at the intersection of technology, education, and design. I help
+            brands, startups, and institutions build digital products, grow
+            audiences, and create impact at scale.
           </p>
           <div className="sub-contact-left d-grid">
             <div className="sub-contac-item">

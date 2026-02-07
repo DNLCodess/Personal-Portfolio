@@ -7,10 +7,10 @@ const RelatedBlogs = () => {
       <div className="row">
         <div className="col-lg-12 mb-50 text-center">
           <div className="related-blog-title">
-            <h5 className="wow fadeInUp" data-wow-delay=".3s">
+            <h5 className="wow fadeInUp" data-wow-delay=".1s">
               Related Blogs
             </h5>
-            <h3 className="wow fadeInUp" data-wow-delay=".4s">
+            <h3 className="wow fadeInUp" data-wow-delay=".2s">
               Related Blogs
             </h3>
           </div>

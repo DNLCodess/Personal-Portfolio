@@ -29,10 +29,10 @@ const Contact = () => {
       <div className="container">
         <div className="contact-content row">
           <div className="col-lg-6">
-            <span className="large-txt wow fadeInUp" data-wow-delay=".3s">
+            <span className="large-txt wow fadeInUp" data-wow-delay=".1s">
               Let’s Contact!
             </span>
-            <p className="wow fadeInUp" data-wow-delay=".4s">
+            <p className="wow fadeInUp" data-wow-delay=".2s">
               I am always open to discussing new projects, creative ideas, or
               opportunities to be a part of your vision. Feel free to reach out
               through.

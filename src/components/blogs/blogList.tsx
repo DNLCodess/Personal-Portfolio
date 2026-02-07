@@ -14,7 +14,7 @@ const BlogList = () => {
   return (
     <section id="blogs" className="blogs section-pt">
       <div className="container">
-        <div className="section-title wow fadeInUp" data-wow-delay=".3s">
+        <div className="section-title wow fadeInUp" data-wow-delay=".1s">
           <h3>Latest Blog</h3>
           <span />
         </div>

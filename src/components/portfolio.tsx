@@ -26,7 +26,7 @@ const Portfolio = () => {
         <div className="container">
           <div className="section-title-wrapper row">
             <div className="col-xxl-5 col-12">
-              <div className="section-title wow fadeInUp" data-wow-delay=".3s">
+              <div className="section-title wow fadeInUp" data-wow-delay=".1s">
                 <h3>Latest Project</h3>
                 <span />
               </div>
@@ -36,7 +36,7 @@ const Portfolio = () => {
               <nav className="project-filter">
                 <ul
                   className="d-flex flex-wrap justify-content-xxl-end wow fadeInUp"
-                  data-wow-delay=".4s"
+                  data-wow-delay=".2s"
                 >
                   {filters.map((f, i) => (
                     <li key={i} onClick={() => setselectedCategory(f.filter)}>

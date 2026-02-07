@@ -3,7 +3,7 @@ const Pagination = () => {
     <div className="row">
       <div className="col-lg-12">
         <div className="glenic-pagination">
-          <ul className="wow fadeInUp" data-wow-delay=".3s">
+          <ul className="wow fadeInUp" data-wow-delay=".1s">
             <li>
               <a href="#">
                 <i className="bi bi-arrow-left"></i>

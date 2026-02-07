@@ -15,7 +15,7 @@ const BlogList = () => {
             <div className="col-lg-8 mb-30">
               {blogData.map((blog, index) => (
                 <div key={blog.id} className="blog-list-item row mb-30">
-                  <div className="col-md-5 wow fadeInUp" data-wow-delay=".3s">
+                  <div className="col-md-5 wow fadeInUp" data-wow-delay=".1s">
                     <Link href="/blog-details">
                       <Image
                         width={442}
@@ -28,7 +28,7 @@ const BlogList = () => {
                   </div>
                   <div
                     className="col-md-7 mt-3 mt-md-0 wow fadeInRight"
-                    data-wow-delay=".4s"
+                    data-wow-delay=".2s"
                   >
                     <h5>
                       <Link href="/blog-details">{blog.title}</Link>

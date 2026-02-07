@@ -12,10 +12,10 @@ const PageHeader = ({
       <div className="container">
         <h2>{title}</h2>
         <ul>
-          <li className="wow fadeInUp" data-wow-delay=".3s">
+          <li className="wow fadeInUp" data-wow-delay=".1s">
             <Link href="/">Home</Link>
           </li>
-          <li className="wow fadeInUp" data-wow-delay=".4s">
+          <li className="wow fadeInUp" data-wow-delay=".2s">
             {" "}
             {currentPage}
           </li>

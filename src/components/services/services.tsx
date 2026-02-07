@@ -14,12 +14,12 @@ const Experience = () => {
   return (
     <section id="experience" className="experience section-pt">
       <div className="container">
-        <div className="section-title wow fadeInUp" data-wow-delay=".3s">
+        <div className="section-title wow fadeInUp" data-wow-delay=".1s">
           <h3>Work Experience</h3>
           <span />
         </div>
 
-        <div className="experience-intro wow fadeInUp" data-wow-delay=".4s">
+        <div className="experience-intro wow fadeInUp" data-wow-delay=".2s">
           <p>
             Growth-focused digital strategies covering SEO, paid advertising,
             content, analytics, and conversion optimization across diverse

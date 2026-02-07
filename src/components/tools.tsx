@@ -10,12 +10,12 @@ const Tools = () => {
   return (
     <section className="tools section-pt">
       <div className="container">
-        <div className="section-title wow fadeInUp" data-wow-delay=".3s">
+        <div className="section-title wow fadeInUp" data-wow-delay=".1s">
           <h3>Tools & Platforms</h3>
           <span />
         </div>
 
-        <p className="tools-intro wow fadeInUp" data-wow-delay=".4s">
+        <p className="tools-intro wow fadeInUp" data-wow-delay=".2s">
           Proficient in industry-standard tools for design, development,
           collaboration, and project management.
         </p>

@@ -5,7 +5,7 @@ const Pricing = () => {
     <section id="pricing" className="pricing section-mt">
       <div className="pricing-wrapper">
         <div className="container">
-          <div className="section-title wow fadeInUp" data-wow-delay=".3s">
+          <div className="section-title wow fadeInUp" data-wow-delay=".1s">
             <h3>Pricing</h3>
             <span />
           </div>

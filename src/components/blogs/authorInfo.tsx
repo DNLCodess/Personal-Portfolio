@@ -5,7 +5,7 @@ const AuthorInfo = () => {
   return (
     <div
       className="blog-author-section mt-20 mb-60 wow fadeInUp"
-      data-wow-delay=".3s"
+      data-wow-delay=".1s"
     >
       <div className="thumb">
         <Image
